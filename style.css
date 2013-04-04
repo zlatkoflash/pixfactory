@@ -1,0 +1,393 @@
+@charset "utf-8";
+@import url("css/reset.css");
+@import url("css/grid.css");
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+@font-face {
+    font-family: 'futura_bdcn_btbold';
+    src: url('fonts/futura_bold_condensed_bt-webfont.eot');
+    src: url('fonts/futura_bold_condensed_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura_bold_condensed_bt-webfont.woff') format('woff'),
+         url('fonts/futura_bold_condensed_bt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background:#353e3d url(images/main-bg.jpg) left top repeat-x;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	overflow:hidden;
+}
+.main-container{
+	width:1000px;
+	overflow:hidden;
+	clear:both;
+}
+#content{
+	margin-top:124px;
+	overflow:hidden;
+	clear:both;
+	width:100%;
+	min-height:500px;
+}
+#tv-object{
+	width:728px;
+	height:520px;
+	background:url(images/televisor.png) no-repeat;
+	float:left;
+	overflow:hidden;
+}
+#right-sidebar{
+	width:270px;
+	float:right;
+	overflow:hidden;
+}
+div.logo{
+	width:260px;
+	height:204px;
+	background:url(images/logo.png) no-repeat;
+	margin-left:9px;
+}
+div.logo a{
+	display:block;
+	width:260px;
+	height:192px;
+	margin-top:26px;
+}
+div.login-init{
+	width:200px;
+	margin:40px 0 0 24px;
+	position:absolute;
+}
+div.login-init a{
+	display:block;
+	clear:both;
+	overflow:hidden;
+	font-size:14px;
+}
+div.login-init h3{
+	font-size:12px;
+	font-family: 'futura_bdcn_btbold';
+	margin-left:10px;
+	margin-top:2px;
+	color:#e0e1e3;
+	font-size:14px;
+}
+div.login-init h3 a{
+	color:#e0e1e3;
+	display:inline;
+}
+a.feedback{
+	width:27px;
+	height:113px;
+	position:absolute;
+	background:url(images/feedback.png) no-repeat;
+	left:2px;
+	top:250px;
+	text-indent:-999em;
+	display:block;
+	z-index:100;
+}
+div.login-container{
+	width:200px;
+	margin:20px 0 0 26px;
+	position:relative;
+	left:0;
+	top:150px;
+	display:none;
+	zoom:1;
+	overflow:hidden;
+}
+div.login-container input[type='text']{
+	width:195px;
+	background-color:#7a8382;
+	border:none;
+	font-family: 'futura_bdcn_btbold';
+	font-size:18px;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	margin-bottom:25px;
+}
+
+div.login-container input[type='password'], #password{
+	width:195px;
+	background-color:#7a8382;
+	border:none;
+	font-family: 'futura_bdcn_btbold';
+	font-size:18px;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	margin-bottom:5px;
+}
+div.pass-label{
+	font-family: 'futura_bdcn_btbold';
+	font-size:18px;
+	color:#fff;
+	width:195px;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#password-wrap{
+	position:relative;
+	display:block;
+	zoom:1;
+}
+
+#login-button{
+	width:160px;
+	height:37px;
+	background:url(images/log-butt.png) no-repeat;
+	text-indent:-999em;
+	text-transform: capitalize;
+	border:none;
+	margin-left:19px;
+	display:block;
+}
+#rm-link{
+	font-family: 'futura_bdcn_btbold';
+	font-size:18px;
+	color:#b6babb;
+	margin-left:18px;
+	display:block;
+	margin-bottom:20px;
+}
+#anim-wrap{
+	position:relative;
+	overflow:hidden;
+	min-height:400px;
+}
+div.margin-top255{
+	margin-top:80px !important;
+}
+div.pix-logo{
+	float:left;
+	width:260px;
+}
+div.side-icons{
+	width:500px;
+	float:left;
+	margin-left:115px;
+	margin-top:50px;
+}
+.register-types{
+	margin-left:10px;
+	margin-top:20px;
+}
+.register-types a{
+	display:block;
+	float:left;
+	width:140px;
+	height:50px;
+	margin-right:20px;
+	outline:none;
+}
+.register-types a:hover{
+	-moz-box-shadow: 0 0 8px #fff;
+    -webkit-box-shadow: 0 0 8px #fff;
+    box-shadow: 0px 0px 8px #fff;
+}
+#register-form input[type='text'], #register-form input[type='password']{
+	width:302px;
+	background-color:#a0a4a5;
+	border:none;
+	font-family: 'futura_bdcn_btbold';
+	font-size:20px;
+	color:#172021;
+	height:26px;
+	line-height:26px;
+	padding-left:5px;
+	margin-bottom:8px;
+}
+.ui-datepicker{
+	width:302px !important;
+}
+.form-wrapper{
+	width:310px;
+	float:left;
+	margin-left:20px;
+	position:relative;
+}
+.profile{
+	width:250px;
+	float:left;
+	margin-left:30px;
+	margin-top:0px;
+}
+#upload-photo{
+	float:right;
+	margin-top:10px;
+	width:140px;
+	height:27px;
+	margin-right:9px;
+	position:relative;
+	overflow:hidden;
+}
+#profileimg{
+	position:absolute;
+	z-index:9999;
+	top:1px;
+	right:0;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+#submit-button{
+	width:160px;
+	height:35px;
+	background:url(images/submit-form-button.jpg) no-repeat;
+	text-indent:-999em;
+	text-transform:capitalize;
+	display:block;
+	clear:both;
+	overflow:hidden;
+	margin-top:70px;
+	border:none;
+	position:absolute;
+	left:3px;
+}
+.form-row{
+	position:relative;
+}
+.form-row .pass-labels{
+	font-family: 'futura_bdcn_btbold';
+	font-size:20px;
+	color:#172021;
+	width:302px;
+	height:26px;
+	line-height:26px;
+	position:absolute;
+	margin-left:5px;
+        text-transform:uppercase;
+}
+.lbpad-top{
+	height:30px !important;
+	line-height:30px !important;
+	margin-top:2px;
+}
+.ajax-loader{
+	width:128px;
+	height:128px;
+	position:absolute;
+	z-index:9999;
+	display:none;
+}
+div.profile-wrap{
+	position:relative;
+}
+div.loaderp{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:url(images/profile-loader.gif) center center no-repeat;
+	z-index:9999;
+	display:none;
+}
+p.error-label{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#e00005;
+	position:absolute;
+	right:5px;
+	top:3px;
+	text-indent:-999em;
+	background:url(images/required_img.png) no-repeat;
+	width:20px;
+	height:20px;
+}
+#placeholder{
+	height:auto !important;
+}
+h3.success-register{
+	font-family: 'futura_bdcn_btbold';
+	font-size:25px;
+	color:#fff;
+	width:302px;
+	height:26px;
+	line-height:26px;
+	position:absolute;
+	margin-left:120px;
+	margin-top:100px;
+}
+#login-response{
+	display:none;
+}
+.error{
+	display:block;
+	clear:both;
+	overflow:hidden;
+	padding:4px 0 4px 25px;
+	background:url(images/required_img.png) left center no-repeat;
+	margin:15px 0 15px 17px;
+	color:#ffc1c1;
+}
+.pass-forgot-block{
+        margin:20px 0 20px 26px;
+        display: none;
+}
+#usr-email{
+        width:195px;
+	background-color:#7a8382;
+	border:none;
+	font-family: 'futura_bdcn_btbold';
+	font-size:18px;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	margin-bottom:5px;
+}
+#pass-forgot{
+    width:160px;
+    height: 37px;
+    background:url(images/pass_resuest.jpg) no-repeat;
+    text-indent: -999em;
+    border:none;
+    margin:15px 0 0 22px;
+}
+.reset-pass-button{
+    color:#fff;
+    background: url(images/bg-input.jpg) repeat-x;
+    height:37px;
+    line-height:37px;
+    font-size:18px;
+    border:none;
+    margin:15px 0 0 0;
+    padding:0 25px 0 25px;
+}
+#pass_recoveryForm input[type="password"]{
+    width:302px;
+    background-color:#a0a4a5;
+    border:none;
+    font-family: 'futura_bdcn_btbold';
+    font-size:20px;
+    color:#172021;
+    height:26px;
+    line-height:26px;
+    padding-left:5px;
+    margin-bottom:8px;
+}
+#pass_recoveryForm .form-row{
+    width:307px;
+}
+.pass-change{
+    margin:10px 0 0 0;
+    display: block;
+    overflow:hidden;
+    display:none;
+}

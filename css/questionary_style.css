@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0px; padding:0px; background:#f1f1f1 url(images/body_bg.png) top repeat-x;}
+
+#page{overflow:hidden; width:895px; position:relative; margin:0 auto; font-family:Arial, Helvetica, sans-serif; line-height:100%;}
+
+.left_forms_holder
+{
+	float:left;
+	width:895px;
+	height:768px;
+}
+#show_hide_right_form_btn
+{
+	width:25px;
+	height:20px;
+	background:url(images/close_right_form_btn.png) no-repeat;
+	cursor:pointer;
+	position:absolute;
+	left:23px;
+	top:360px;
+	z-index:10;
+}
+.right_form_holder
+{
+	position:fixed;
+	right:0px;
+	top:0px;
+	width:293px;
+	height:768px;
+	background:url(images/orange_form_onright.png) no-repeat;
+	z-index:9;	
+}
+
+.menu_item,.submit_btn
+{
+	border-radius:8px;	
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
+	/*
+	background: rgb(235, 235, 235);
+	background: -moz-linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(220, 220, 220) 100%);
+	background: -webkit-linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(220, 220, 220) 100%);
+	background: -o-linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(220, 220, 220) 100%);
+	background: -ms-linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(220, 220, 220) 100%);
+	background: linear-gradient(180deg, rgb(240, 240, 240) 0%, rgb(220, 220, 220) 100%);
+	*/
+	background-color: #f5f5f5;
+	*background-color: #e6e6e6;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+
+	border-bottom:2px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #FFF;
+	height:28px;
+	line-height:28px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+	text-align:center;
+	min-width:90px;
+	padding:0px 10px;
+	float:left;
+	margin:0px 5px;
+}
+.submit_btn{cursor:pointer;}
+.menu_item_active,.submit_btn:hover
+{
+	background: rgb(247, 237, 227);
+	background: -moz-linear-gradient(90deg, rgb(247, 237, 227) 0%, rgb(231, 217, 217) 100%);
+	background: -webkit-linear-gradient(90deg, rgb(247, 237, 227) 0%, rgb(231, 217, 217) 100%);
+	background: -o-linear-gradient(90deg, rgb(247, 237, 227) 0%, rgb(231, 217, 217) 100%);
+	background: -ms-linear-gradient(90deg, rgb(247, 237, 227) 0%, rgb(231, 217, 217) 100%);
+	background: linear-gradient(180deg, rgb(247, 237, 227) 0%, rgb(231, 217, 217) 100%);
+}
+/*
+.crear_btn,.portafolio_btn
+{
+	width:423px;
+	height:343px;
+	cursor:pointer;	
+}
+.crear_btn{background:url(images/crear_btn.png) no-repeat;}
+.portafolio_btn{background:url(images/portafolio_btn.png) no-repeat; margin-left:45px;}
+*/
+.crear_btn,.portafolio_btn
+{
+	width:212px;
+	height:172px;
+	cursor:pointer;	
+}
+.crear_btn{background:url(images/crear_btn_50perc.png) no-repeat;}
+.portafolio_btn{background:url(images/portafolio_btn_50perc.png) no-repeat; margin-left:45px;}
+		
+.selection{line-height:32px;}
+.textarea
+{
+	width:720px;
+	height:130px;
+	padding:10px;
+	border:3px solid #FFF;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	-o-border-radius:15px;
+	-ms-border-radius:15px;
+	resize:none;
+	overflow:auto;
+	background:#fdfcfc;
+	-webkit-box-shadow: inset 0px 7px 15px rgba(100,100,100, 0.75);
+	-moz-box-shadow:    inset 0px 7px 15px rgba(100,100,100, 0.75);
+	box-shadow:         inset 0px 7px 15px rgba(100,100,100, 0.75);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+}
+.textarea:focus{outline:none;}
+
+
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clearBoth{clear:both;}
+
+.posRel{position:relative;}
+.posAbs{position:absolute;}
+
+.displayNone{display:none;}
+
+.width600px{width:600px;}
+.width700px{width:700px;}
+.width725px{width:725px;}
+
+
+.paddingTop10px{padding-top:10px;}
+.paddingTop20px{padding-top:20px;}
+.paddingTop30px{padding-top:30px;}
+.paddingTop40px{padding-top:40px;}
+.paddingTop100px{padding-top:100px;}
+.paddingLeft10px{padding-left:10px;}
+.paddingLeft15px{padding-left:15px;}
+.paddingLeft100px{padding-left:100px;}
+.paddingLeft200px{padding-left:200px;}
+
+.margin0{margin:0px;}
+
+.r{border:1px solid red;}
