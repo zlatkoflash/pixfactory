@@ -143,6 +143,6 @@ $auth_url = $cb->oauth_authorize();
 
     <body>
         <div id="fb-root"></div>
-         glupa izmena
+         
         <div class="ajax-loader"><img src="images/ajax-loader.gif" width="128" height="128" /></div>
         <div class="main-container">
