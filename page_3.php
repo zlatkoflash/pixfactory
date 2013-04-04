@@ -10,9 +10,6 @@
 	
 	if(isset($_POST['formato']))
 	{
-		/*
-			Insert into table
-		*/
 		$arr_fields = array(
 								"user_id" => $_SESSION[$u->session_user_data]->id,
 								"formato" => $_POST['formato'],
