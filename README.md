@@ -9,12 +9,12 @@ This README provides the essential commands to install and run your Next.js appl
   
       Open your command prompt or terminal, navigate to the project's root folder, and execute the following two commands:
 
-      Install:
-      npm install
+      Install: <br/>
+      npm install <br/>
       Downloads and installs all project dependencies.
 
-      Start:
-      npm run dev
+      Start: <br/>
+      npm run dev <br/>
       Starts the development server with hot reloading.
    
       Your application will typically run at: http://localhost:3000
